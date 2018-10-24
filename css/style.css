@@ -1,0 +1,1197 @@
+body{
+  margin: 0px;
+}
+
+.header{
+  text-align: center;
+  font-size: 2em
+
+
+}
+
+.head{
+  color: rgb(130, 50,150);
+  font-family:fantasy;
+}
+
+.head span{
+  font-size: 0.7em;
+  font-style: italic;
+  font-family: serif;
+  color: rgb(100, 0, 180);
+  position: relative;
+  bottom: 50px;
+}
+
+.nav{
+  background-color: rgb(130, 50,150);
+  text-align: center;
+  overflow: hidden;
+
+}
+
+.nav a{
+  color: white;
+  font-size: 2em;
+  text-decoration: none;
+  text-transform: capitalize;
+  /*background-color: blue;*/
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 1px;
+  /*width: 200px;*/
+
+}
+
+.nav :hover{
+  background-color: white;
+  color: rgb(130, 50,150);
+}
+
+.nav :hover a {
+  background-color: white;
+  color: rgb(130, 50,150);
+}
+
+
+.img1{
+  height: 500px;
+  background-image: url(../images/spa.jpg);
+  background-size: cover;
+}
+
+
+  .well {
+    width: 45%;
+    height: 45%;
+    position: absolute;
+    left: 30%;
+    top: 400px;
+    text-align: center;
+  }
+
+.well h3{
+  font-size: 2em;
+  font-family: Agency FB;
+  color: rgb(130, 50,150);
+  text-transform: capitalize;
+}
+ .well span{
+   position: relative;
+   bottom: 30px;
+   color: rgb(130, 50,150);
+ }
+ .well p{
+   position: relative;
+   bottom: 20px;
+   font-size: 1.5em;
+   font-family: Adobe Arabic;
+ }
+
+ @media (min-width:600px){
+   .well {
+     width: 45%;
+     height: 45%;
+     position: absolute;
+     left: 50%;
+     top: 500px;
+     text-align: center;
+   }
+ }
+@media (min-width:767px) {
+  .well {
+    width: 45%;
+    height: 45%;
+    position: absolute;
+    left: 50%;
+    top: 400px;
+    text-align: center;
+  }
+  }
+
+
+  .well h3{
+    font-size: 2em;
+    font-family: Agency FB;
+    color: rgb(130, 50,150);
+    text-transform: capitalize;
+  }
+   .well span{
+     position: relative;
+     bottom: 30px;
+     color: rgb(130, 50,150);
+   }
+   .well p{
+     position: relative;
+     bottom: 20px;
+     font-size: 1.5em;
+     font-family: Adobe Arabic;
+   }
+}
+ .bath{
+   margin-top: 100px;
+ }
+
+ .bathimg{
+   padding: 2px;
+ }
+ .bathimg a{
+   text-decoration: none;
+
+ }
+.bathimg img{
+  width: 97%;
+  height: 97%;
+  margin-left: 6px;
+  margin-top: 6px;
+}
+.bathimg p{
+  text-align: center;
+  color: black;
+  font-style: italic;
+  font-size: 18px;
+  padding: 5px;
+
+}
+
+
+
+.soo{
+  padding: 35px;
+  text-align: center;
+  font-size: 19px;
+  font-style: italic;
+  color: rgb(130, 50,150);
+  position: relative;
+  bottom: 45px;
+
+}
+@media (min-width:768px) {
+  /*.resize{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+  }*/
+}
+@media (min-width:991px) {
+  .resize{
+    float:left;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    clear:none;
+  }
+}
+.soo h2{
+text-align: center;
+font-size: 3em;
+text-transform: capitalize;
+color: rgb(130, 0,0);
+font-style: italic;
+
+}
+
+.soo hr{
+  color: red;
+  width: 50%;
+  border:rgb(130, 0,0)  1px dotted;
+
+}
+
+.bird:hover{
+  background-color:rgb(130, 50,150);
+  transition: 1.5s;
+}
+.bird:hover p{
+  color: white;
+
+}
+
+#in{
+  color: red;
+
+}
+
+.second{
+  margin-top: 100px;
+  height: 500px;
+}
+
+.face{
+  width: 100%;
+  height: 300px;
+}
+.face img{
+  width: 100%;
+  height: 100%;
+}
+
+.second h4{
+  font-size: 20px;
+  color: rgb(130, 50,150);
+
+}
+
+.second span{
+  font-size: 17px;
+  font-style: italic;
+}
+
+@media (min-width:767px){
+  #space{
+    color: white;
+    display: none;
+  }
+
+}
+#space{
+  color: white;
+}
+.tin{
+  padding: 20px;
+
+}
+
+.tiny{
+  position: relative;
+  bottom: 20px;
+}
+@media (max-width:1199px){
+  .fin{
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+}
+.fin{
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fin img{
+  width: 100%;
+  height: 100%;
+}
+
+.tip{
+  font-size: 20px;
+  font-style: italic;
+}
+
+.tip h3{
+  text-align: center;
+  color: rgb(130, 50,150);
+}
+
+.tip li{
+  padding: 10px;
+  list-style-type: square;
+
+}
+
+
+.proimg{
+  padding: 2px;
+
+}
+.proimg a{
+  text-decoration: none;
+
+}
+.proimg img{
+ width: 97%;
+ height: 97%;
+ margin-left: 6px;
+ margin-top: 6px;
+}
+.proimg p{
+ text-align: center;
+ color: black;
+ font-style: italic;
+ font-size: 18px;
+ padding: 5px;
+
+}
+
+.x img{
+  width: 100%;
+  height: 100%;
+}
+
+.ex{
+  position: relative;
+  top: 30px;
+}
+
+.pro:hover{
+  background-color:rgb(130, 50,150);
+  transition: 1.5s;
+}
+/*.pro:hover p{
+  color: white;
+
+}*/
+
+.desc{
+  position: relative;
+  top: 20px;
+  font-family: sans-serif;
+  font-size: 17px;
+}
+.desc h3{
+  color: rgb(130, 50,150);
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 1.7em;
+}
+
+.desc hr{
+  width: 40%;
+  position: relative;
+  bottom: 30px;
+}
+
+.desc ul{
+  font-style: italic;
+
+}
+
+.desc li{
+  padding: 5px;
+}
+.footer{
+  margin-top: 100px;
+  background-color: rgb(130, 50,150);
+}
+
+
+.foot1 h3{
+  position: relative;
+  font-size: 2em;
+  text-align: center;
+  font-style: italic;
+  font-family: sans-serif;
+  color: white;
+  top: 30px;
+}
+
+#pin{
+  position: relative;
+  top: 20px;
+}
+.foot1 h5{
+  text-transform: capitalize;
+  color: white;
+  font-size: 1.4em;
+  padding: 5px;
+  font-style: italic;
+
+}
+
+/*#add1{
+  color: white;
+  font-size: 1em;
+}*/
+.foot1 span{
+  font-size: 1.5em;
+  font-family: serif;
+  color: white;
+  position: relative;
+  bottom: 20px;
+  left: 7px;
+}
+
+.partn{
+  width: 150px;
+  height: 50px;
+  padding: 2px;
+}
+.partn1{
+  width: 150px;
+  height: 50px;
+  padding: 2px;
+  background-color: white;
+}
+.partn1 img{
+  height: 100%;
+  width: 100%;
+}
+
+.partn img{
+  height: 100%;
+  width: 100%;
+}
+
+.foot1{
+  padding-left:6px;
+  border-right: 1px solid;
+  border-color:white;
+  position: relative;
+  bottom: 33px;
+
+}
+
+#sm{
+  margin-top: 0px;
+  padding: 0px;
+}
+
+.foot2{
+  padding-left:12px;
+  border-right: 1px solid;
+  border-color:white;
+}
+
+.foot2 span{
+  color: white;
+}
+
+.foot2 h5{
+  font-style: italic;
+  font-size: 1.2em;
+  text-transform: capitalize;
+  color: white;
+  padding-left: 5px;
+}
+
+.foot3{
+  padding-left:2px;
+  border-right: 1px solid;
+  border-color:rgb(130, 50,150);
+}
+.foot3 h5{
+  font-style: italic;
+  font-size: 1.2em;
+  text-transform: capitalize;
+  color: white;
+}
+
+
+.foot2 span{
+  padding: 4px;
+  font-size: 1.3em;
+  position: relative;
+  bottom: 20px;
+
+}
+
+#add{
+  font-style: italic;
+  font-size: 1.2em;
+  text-transform: capitalize;
+  color: white;
+  /*position: relative;*/
+  bottom: 40px;
+  margin: 0px;
+}
+
+
+.cop{
+  color:white;
+  font-size: 0.9em;
+  margin-bottom: -20px;
+  font-style: italic;
+
+}
+
+.f :hover{
+  color: blue;
+}
+.t :hover{
+  color: #99ffff;
+}
+.i :hover{
+  color: #ff00ff;
+}
+
+.g :hover{
+  color: #ff0000;
+}
+
+.abt{
+  margin-top: 100px;
+}
+
+.sen1{
+  width: 95%;
+  height: 250px;
+}
+
+.sen1 img{
+  width: 100%;
+  height: 100%;
+}
+@media (min-width:767px){
+  .abtxt{
+    font-size: 1.2em;
+    font-style: italic;
+    font-family: inherit;
+  }
+
+}
+@media (min-width:320px){
+  .abtxt{
+    padding: 10px;
+    font-size: 1.2em;
+    font-style: italic;
+    font-family: inherit;
+  }
+
+}
+
+.abtxt span{
+  color: white;
+}
+
+.cont1{
+  background-image: url(../images/how-to-spa-main-image.jpg);
+  background-size: cover;
+  height: 500px;
+  margin-top: 100px;
+  font-size: 1.3em;
+  color: white;
+}
+
+.cont1 h3{
+  text-align: center;
+}
+
+.cont1 ul{
+  list-style-type: none;
+}
+
+.cont1 span{
+  padding: 0px 7px;
+}
+.cont1 li{
+  padding: 3px 0px;
+}
+
+
+
+.vi{
+  position: relative;
+  bottom: 25px;
+  }
+
+#lock{
+  position: relative;
+  left: 20px;
+  bottom: 40px;
+}
+
+.formcon{
+  text-transform: capitalize;
+  font-size: 0.8em;
+  font-style: italic;
+  padding: 10px;
+  /*background-color: rgba(130, 50, 150, 0.3);*/
+  position: relative;
+  /*top: 100px;*/
+  color: white;
+}
+
+.formcon h3{
+  color: white;
+  text-align: center;
+  font-size: 1.4em;
+}
+#tick{
+  font-size: 1.5em;
+  padding-left: 120px;
+}
+
+.formcon label,input{
+  padding: 7px;
+  margin: 4px;
+}
+.formcon label{
+  font-size: 1.3em;
+}
+#lab{
+  position: relative;
+  right: 12px;
+  top: 12px;
+}
+.formcon input{
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+}
+.formcon textarea{
+  resize: none;
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+}
+
+.formcon button{
+  text-transform: capitalize;
+  outline: none;
+  background-color: inherit;
+  /*border: none;*/
+  border: 1px solid white ;
+  cursor: pointer;
+  color: white;
+  margin-left:50px;
+
+}
+
+.lin{
+  margin-top: 70px;
+}
+.zin{
+  margin-top: 0px;
+}
+
+.lineimg{
+  background-color: rgb(130, 50,150)
+  width:100%;
+  height: 100%;
+  background-image: url(../images/line.png);
+  background-blend-mode: hue;
+  color: transparent;
+}
+/*.lineimg img{
+  width:100%;
+  height: 100%;
+}*/
+
+.linetxt{
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 1.5em;
+  color: rgb(130, 50,150)
+
+  }
+
+  .lili{
+    height:24px;
+  }
+
+  .linetxt h4{
+    position: relative;
+    bottom: 34px;
+  }
+  .linetxt span{
+    font-size: 0.7em;
+    position: relative;
+    bottom: 50px;
+    text-transform: none;
+
+  }
+.k{
+  height: 250px;
+}
+
+  .k img{
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+  }
+  .d{
+    height: 100%;
+  }
+
+  .d img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /*top: 20px;*/
+  }
+
+    .afa1{
+      background-color: rgba(130, 50, 150, 0.4);
+      position: absolute;
+      width: 50%;
+      bottom: 0px;
+      height: 20%;
+      display: none;
+      text-align: center;
+
+    }
+
+    .k:hover .afa1  {
+
+      display: block;
+    }
+
+  .afa1 h5{
+    color: white;
+    font-size: 1.1em;
+    text-align: center;
+    font-family: cursive;
+    position: relative;
+    bottom: 30px;
+
+
+  }
+
+
+  .afa1 span{
+    position: relative;
+    bottom: 60px;
+    /*left: 10px;*/
+    color: black;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    padding: none;
+    /*text-align: center;*/
+  }
+  .ax{
+    position: relative;
+    top: 30px;
+    }
+.prod{
+  margin-top: 40px;
+}
+.ban{
+  width: 100%;
+  height: 300px;
+
+}
+
+.ban img{
+  width: 100%;
+  height: 100%;
+}
+@media (min-width:320px){
+  .xtray{
+    height: 300px;
+    /*border: 1px solid black;*/
+  }
+}
+
+.prodimg{
+  width: 70%;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  position: relative;
+}
+.prodimg img{
+  width: 100%;
+  height: 100%;
+}
+.prodimg h5{
+  position: relative;
+  bottom: 20px;
+}
+ .pts1{
+   margin-top: 80px;
+ }
+
+ .buyn{
+   position: absolute;
+   bottom: 80px;
+   left: 60px;
+ }
+
+.buyn a{
+  text-decoration: none;
+
+}
+
+.buyn button{
+  background-color: rgba(130, 50,150, 0.6);
+  border-radius: 20px;
+  border-color: white;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  display: none;
+}
+
+.prodimg:hover button{
+  display: block;
+
+}
+
+.servli{
+  width: 85%;
+  padding-left: auto;
+  padding-right: auto;
+
+}
+.ser1{
+  background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+.servli li{
+  padding: 10px;
+  /*background-color: black;*/
+  font-size: 1.4em;
+  list-style-type: none;
+  text-align: center;
+  }
+  .servli h3{
+    font-size: 1.7em;
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(130, 50, 150);
+    text-decoration: underline;
+    text-transform: capitalize;
+    position: relative;
+    /*top: 20px;*/
+    right: -20px;
+  }
+
+  .servli a{
+    text-decoration: none;
+    color: rgb(130, 50, 150);
+    font-style: italic;
+    padding: inherit;
+    width: 100px;
+    padding: 10px;
+  }
+  .ser1 :hover {
+    background-color: rgb(130, 50, 150);
+    color: white;
+  }
+  .ser1 :hover a {
+    background-color: rgb(130, 50, 150);
+    color: white;
+  }
+
+.new1 h2{
+  font-style: italic;
+  font-size: 2em;
+    color: rgb(130, 50, 150);
+  text-transform: capitalize;
+}
+
+.new1 p{
+  font-size: 1.1em;
+  padding: 10px;
+  font-family: serif;
+}
+
+.servimg{
+  width: 100%;
+  height: 270px;
+}
+
+.servimg img{
+  width: 100%;
+  height: 100%;
+}
+
+.servtxt2 h3{
+  text-transform: capitalize;
+  font-size: 1.3em;
+  color: rgb(130, 50, 150);
+}
+.ses{
+  margin-top: 40px;
+}
+
+.fatty{
+  padding: 15px;
+}
+
+.servtxt2 p{
+  font-size: 17px;
+}
+
+.servtxt2 a{
+  text-transform: capitalize;
+  font-size: 1.3em;
+  text-decoration: none;
+  float: right;
+  color: rgb(130, 50, 150);
+}
+.booking{
+  /*padding: 5px;*/
+  position: relative;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: rgb(130, 50, 150);
+}
+.booking h3{
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+.booking span{
+  position: relative;
+  font-size: 1.2em;
+  left: 35px;
+
+}
+.mama{
+  margin-top: 60px;
+}
+.maimg{
+  width: 95%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+.maimg img{
+  width: 100%;
+  height: 100%;
+}
+/*.blank{
+  margin-top: 0px;
+}*/
+.riri{
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+}
+.riri img{
+  width: 100%;
+  height: 100%;
+}
+.riri1{
+  padding: 10px;
+}
+.riri1 h1{
+  text-transform: capitalize;
+  color: rgb(130, 50, 150);
+}
+.riri1 h3{
+    color: rgb(130, 50, 150);
+}
+.riri1 p{
+  font-size: 19px;
+}
+.modal{
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  display: none;
+  position: fixed;
+  background-color:rgba(130, 50, 150, 0.4);
+}
+.modal span{
+  padding: 30px;
+  text-transform: capitalize;
+  font-size: 1.3em;
+}
+#loko{
+  margin-left: 35%;
+  position: relative;
+  top: 42px;
+}
+#loko1{
+  position: relative;
+  top: 42px;
+
+}
+#loko1 button{
+  padding: 5px;
+  font-size: 1.3em;
+  border-radius: 10px;
+  outline: none;
+  text-transform: capitalize;
+  color: rgb(130, 50, 150);
+}
+
+.mill{
+  position: relative;
+  top: 40px;
+
+}
+.mill1{
+  margin-left: 25%;
+  padding: 10px;
+}
+.mill label{
+  text-transform: capitalize;
+  font-size: 1.4em;
+}
+.mill input{
+  width: 80%;
+  border-radius: 10px;
+  outline: none;
+  border-color: rgb(130, 50, 150);
+  color:  rgb(130, 50, 150);
+}
+.select{
+  outline: none;
+}
+.slider{
+  position: relative;
+  height: 800px;
+  top: 50px;
+}
+.dove{
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.item{
+  width: 80%;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+}
+.item img{
+  width: 100%;
+  height: 100%;
+}
+.caption{
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(130,50, 150, 0.3);
+  text-align: center;
+}
+.caption h1{
+  margin-top: 500px;
+  font-size: 2.7em;
+  text-transform: capitalize;
+  color: rgba(204, 204, 204, 0.7);
+  /*animation-name: anto;
+  animation-duration: 3s;*/
+}
+.caption hr{
+  width: 70%;
+  border-color:rgba(255, 0, 0, 0.5);
+  /*animation-name: anto1;
+  animation-duration: 3s;*/
+}
+.ggfg{
+  animation-name: anto;
+  animation-duration: 5s;
+  animation-timing-function: ease-in;
+  transition: all 2s;
+  animation-fill-mode: forwards;
+  /*animation-timing-function: ease-out;*/
+}
+.uuy{
+  transition:4s;
+  animation-name: anto1;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+}
+.rryt{
+  animation-name: anto2;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+}
+
+.caption span{
+  font-size: 1.8em;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.6);
+  /*animation-name: anto2;
+  animation-duration: 3s;*/
+}
+@keyframes anto {
+  from{
+    transform: scale(1);
+  }
+  to{
+    transform: scale(1.4);
+  }
+}
+@keyframes anto1 {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+@keyframes anto2 {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.masitm{
+  width: 100%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+.masitm img{
+  height: 100%;
+  width: 100%;
+}
+.capti,.capti1,.capti2,.capti3{
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  /*right:1px;*/
+  /*left: auto;*/
+  background-color: rgba(130,50, 150, 0.3);
+  text-align: center;
+  /*display: none;*/
+}
+.capti h1,.capti1 h1,.capti2 h1,.capti3 h1{
+  margin-top: 160px;
+  text-transform: capitalize;
+  color: rgba(204, 204, 204, 0.7);
+}
+.capti span,.capti1 span,.capti2 span,.capti3 span{
+  font-size: 1.8em;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.6);
+}
+.capti hr,.capti1 hr,.capti2 hr,.capti3 hr{
+  width: 70%;
+  border-color:rgba(255, 0, 0, 0.5);
+}
+.slima{
+  position: relative;
+  top: 0px;
+}
+.masgal{
+  padding: 5px;
+  position: absolute;
+
+}
+.gally{
+  position: relative;
+  height: 300px;
+  width: 100%;
+}
+.gally2,.gally3,.gally4,.gally5{
+  position: relative;
+  height: 100%;
+
+}
+
+
+.dots1,.dots{
+  position: absolute;
+  left: 15%;
+  top: 270px;
+}
+.dots span,.dots1 span{
+  cursor: pointer;
+  padding: 2px;
+  border: 3px solid rgba(0, 0, 0, 0.6);
+  border-radius: 100px;
+  display: inline-block;
+  background-color: rgb(130,50, 150);
+
+}
+.act{
+  background-color: rgb(130,50, 150);
+  animation-name: anto;
+  animation-timing-function: ease-in;
+  transition: all 1.5s;
+}
+.gall
